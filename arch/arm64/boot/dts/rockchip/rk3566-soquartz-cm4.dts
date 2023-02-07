@@ -149,7 +149,7 @@
  * pin 44 - GPIO10 - spi3_mosi_m0
  */
 &spi3 {
-	status = "disabled";
+	status = "okay";
 };
 
 /*
