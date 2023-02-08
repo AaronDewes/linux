@@ -150,6 +150,12 @@
  */
 &spi3 {
 	status = "okay";
+		spidev@0 {
+			compatible = "rockchip,spidev";
+			status = "okay";
+			reg = <0>;
+			spi-max-frequency = <2000000>;
+		};
 };
 
 /*
